@@ -1,0 +1,38 @@
+@import "bourbon"
+@import "vars.sass"
+
+body
+	font-size: 10px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	font-family: "intro_boldregular", sans-serif
+	overflow-x: hidden
+
+.hidden
+	display: none
+header	
+	position: relative
+	.logo
+		position: absolute
+		top: 32px
+		z-index: 2
+	.top_header
+		height: 90px
+		padding-left: 160px
+		display: flex
+		align-items: center
+		.title
+			h1
+				font-family: 'intro_bold_altregular'
+				white-space: pre-line
+				line-height: 1
+				font-size: 1.416em
+
+	nav
+		height: 56px
+		background-color: $blue_color
+		position: absolute
+		width: 100%
+		top: 90px
+		left: 0
